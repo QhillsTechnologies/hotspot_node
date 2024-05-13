@@ -15,6 +15,14 @@ module.exports = {
       price: {
         type: Sequelize.INTEGER
       },
+      category: {
+        type: Sequelize.STRING,
+        allowNull: false,
+      },
+      barcode: {
+        type: Sequelize.STRING,
+        allowNull: true,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
