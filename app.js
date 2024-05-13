@@ -16,4 +16,4 @@ app.use("/",routes);
 app.get('/', async (req, res) => {
     res.send('done');
 });
-app.listen(PORT,()=>{ console.log('info',"Server Started: ")})
+app.listen(PORT,()=>{ console.log('info',"Server Started: ", PORT)})
